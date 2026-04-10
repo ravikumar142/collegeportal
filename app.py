@@ -52,7 +52,7 @@ def generate_pdf(student):
     doc = SimpleDocTemplate(filename, pagesize=A4)
     elements = []
 
-    elements.append(Paragraph("Government Engineering College Sheohar", styles["Title"]))
+    elements.append(Paragraph("ITM GIDA", styles["Title"]))
     elements.append(Paragraph("Hostel and Mess Bill", styles["Heading2"]))
     elements.append(Paragraph(datetime.now().strftime("%d-%b-%Y"), styles["Normal"]))
     elements.append(Spacer(1, 12))
